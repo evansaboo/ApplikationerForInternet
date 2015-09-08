@@ -1,0 +1,34 @@
+body{
+	
+	margin:0;
+	padding:0;
+	-moz-user-select: none;
+	-webkit-user-select:none;
+	user-select :none;
+}
+
+div.coverFlow{
+	position:absolute;
+	overflow:hidden;
+	padding:10px;
+	
+}
+
+div#coverFlow1{
+	width: 1000px;
+	height: 400px;
+	left: 117px;
+	top: 258px;
+	font-size:100%;
+}
+
+div.snapshot{
+	position: absolute;
+	border: 1px solid #333;
+	text-align: center;
+	background: #ddd;
+	box-shadow:0px 0px 10px black;
+	border-radius:10px;
+	top: -75px;
+	left: 56px;
+}
