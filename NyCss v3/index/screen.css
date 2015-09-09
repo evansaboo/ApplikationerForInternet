@@ -1,69 +1,60 @@
 @charset "utf-8";
 /* Screen CSS Document */
 
-
+/*body*/
 body{
 	margin: 0 auto;
 	font-family:verdana,helvetica,arial,sans-serif;
 	background-color: #fff;
 	
 }
+/*navigation bar*/
+nav ul {
+	list-style: none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	}
 
-nav {
-	font-size: 1em;
-	margin: auto;
-	display: block;
-	height: 70px;
-	line-height: 30px;
-
-
+nav li{
+    display:inline;
 }
-
-
-nav ul {list-style: none; margin: 0 auto; margin-left: 26%; }
-nav li { display: inline; margin: 0;}
-
-nav a:link, #banner nav a:visited {
- display: inline-block;
- height: 30px;
- width: 100px;
- text-align: center;
- text-decoration: none;
- border-radius: 5px;
- -moz-border-radius: 5px;
- -webkit-border-radius: 5px;
- margin: 5px;
- padding-top: 5px;
- padding-right: 2.35em;
- padding-bottom: 5px;
- padding-left: 2.2em;
- background-color: #f1b6b8;
-}
-nav a:hover, nav a:active,
-nav .active a:link, nav .active a:visited {
-
- margin: 5px;
- text-shadow: none !important;
- border-radius:5px;
- -moz-border-radius: 5px;
- -webkit-border-radius: 5px;
+nav a{
+	
+	text-align: center;
+    display: inline-block;
+    padding:10px;
+	color: #000;
+	height: 30px;
+	width: 100px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px;
+	padding-right: 2.35em;
+	padding-bottom: 0px;
+	padding-left: 2.2em;
+	background-color: #f1b6b8;
 }
 
 
 nav ul ul {
-
-	position: absolute;
 	display: none;
 }
+
 	nav ul li:hover > ul {
+		
 		display: block;
 		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -10px;
+		padding-top: 10px;
+		left: 0;
+		right: 0;
 	}
 
-nav ul li {
-	float: left;
-	
-	}
+
 nav ul li:hover a {
 	background-color:#000;
 	color: #fff;
@@ -74,19 +65,8 @@ nav ul li ul li:hover a {
 		color: #000;
 }
 
-	nav ul li a {
-		display: block; padding: 25px 40px;
-		color: #000; text-decoration: none;
-	}
-	
-nav ul li ul {
-	
-	margin-left: -40px;
 
-}
-
-	
-
+/*Top bar*/
 #topbar{
 	
 	background-color:#f1b6b8;
@@ -101,6 +81,7 @@ nav ul li ul {
 #logodiv{
 	padding-top:8px;
 	float:left;
+	position: absolute;
 	margin-left:50px;
 	padding-right:50px;
 	
@@ -113,7 +94,7 @@ nav ul li ul {
 #topmenu h1{
 	padding-top: 30px;
 	text-align: center;
-	margin-right: 25%;
+	
 	
 }
 	
@@ -198,12 +179,34 @@ div.img {
 div.img a:hover img {
     border: 1px solid #000;
 }
+/*Calendar css*/
+table{
+	margin-top: 70px;
 
-TD{
+}
+th{
+	background-color: #f1b6b8;
+}
+table, td, th{
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+td{
+	background-color: #f1b6b8;
+	width: 125px;
+	height: 125px;
 	vertical-align: top;
 	text-align: left;
-	}
-	
+}
+td img{
+
+	margin-left: 20%;
+	width: 100px;
+	height: 100px;
+}
 	#globalImg h2{
 	position:relative;
 	text-align: center;
