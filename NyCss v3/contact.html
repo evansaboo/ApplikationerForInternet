@@ -31,7 +31,7 @@
 			
 			<div id="logodiv">
 				
-				<img src="Images/logo.png"/>
+				<img src="Images/logo.png" alt=""/>
 				
 			</div>
 			
@@ -68,10 +68,11 @@
 <div id="columns">
     <p>We are always happy to hear from you. If you have any questions or comments, feel free to contact us by using the form below&nbsp;and we'll respond as soon as possible!</p>
     </div>
-  <table border="0" cellspacing="0" cellpadding="0">
+	<div id="globalFormail">
+  <table>
       <tr>
-        <td width="250" height="283" valign="top"><p align="right">&nbsp;</p></td>
-        <td width="502" valign="top"><form id="formMail" name="formMail" method="post" >
+
+        <td><form id="formMail" name="formMail" method="post" >
           <p><span id="nameTextField">
           <label for="name"></label>
           <input type="text" name="name" id="name" />
@@ -83,7 +84,7 @@
           <p><span id="messageTextArea">
           <label for="message"></label>
           <textarea name="message" id="message" cols="45" rows="5"></textarea>
-          <span id="countmessageTextArea">&nbsp;</span><span class="textareaRequiredMsg">A value is required.</span><span class="textareaMinCharsMsg">Minimum number of characters not met.</span><span class="textareaMaxCharsMsg">Exceeded maximum number of characters.</span></span></p>
+          <span class="textareaRequiredMsg">A value is required.</span><span class="textareaMinCharsMsg">Minimum number of characters not met.</span><span class="textareaMaxCharsMsg">Exceeded maximum number of characters.</span></span></p>
           <p>
             <input type="submit" name="Submit" id="Submit" value="Submit" />
           </p>
@@ -92,6 +93,7 @@
         <p>&nbsp;</p></td>
       </tr>
     </table>
+	</div>
     <hr>
     <h5> Want to know what we&rsquo;re up to?&nbsp; Follow us on <a href="http://twitter.com/BikeInfo" target="_blank">Twitter</a>.<br />
     Have a specific question?&nbsp; Feel free to email us at <a href="mailto:info@happytilapia.com">info@happytilapia.com</a>

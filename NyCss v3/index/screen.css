@@ -8,6 +8,7 @@ body{
 	background-color: #fff;
 	
 }
+/*****/
 /*index page*/
 #overalImg{
 	margin-top: 40px;
@@ -21,7 +22,7 @@ body{
 .thickboxImg{
 	text-align: center;
 }
-
+/*****/
 /*navigation bar*/
 nav ul {
 	list-style: none;
@@ -78,7 +79,7 @@ nav ul li ul li:hover a {
 		background-color:#f1b6b8;
 		color: #000;
 }
-
+/*****/
 
 /*Top bar*/
 #topbar{
@@ -111,6 +112,7 @@ nav ul li ul li:hover a {
 	
 	
 }
+/*****/
 	
 /*Lunch, Breakfast, Dinner*/
 div.img {
@@ -136,14 +138,17 @@ div.img img {
 div.img a:hover img {
     border: 1px solid #000;
 }
-
+/*****/
 h1{
 color: #363636;
 text-align: center;
 margin: 0 auto;
 }
 
-
+/*contact*/
+#globalFormail td{
+	margin-left: 250px;
+}
 #wrapper {
 	width: 960px;
 	margin-right: auto;
@@ -179,36 +184,37 @@ margin: 0 auto;
 	margin-left: auto;
 	
 }
-
+/*****/
 
 /*Calendar css*/
-table{
+#calendar table{
 	margin-top: 70px;
 
 }
-th{
+#calendar th{
 	background-color: #f1b6b8;
 }
-table, td, th{
+#calendar table, #calendar td, #calendar th{
 	border: 1px solid black;
 	margin-left: auto;
 	margin-right: auto;
 	
 }
 
-td{
+#calendar td{
 	background-color: #f1b6b8;
 	width: 175px;
 	height: 125px;
 	vertical-align: top;
 	text-align: left;
 }
-td img{
+#calendar td img{
 
 	margin-left: 10%;
 	width: 150px;
 	height: 100px;
 }
+/*****/
 	#globalImg h2{
 	position:relative;
 	text-align: center;
@@ -244,7 +250,6 @@ td img{
 }
 
 #comments {
-
 	margin-top: 100px;
 	width: 940px;
 	margin-left: auto;
@@ -263,3 +268,5 @@ td img{
 #box p{
 	margin-left: 20px;
 }
+
+
