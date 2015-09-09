@@ -8,6 +8,21 @@ body{
 	background-color: #fff;
 	
 }
+/*index page*/
+#overalImg{
+	
+	margin-top: 40px;
+}
+#thickboxImg img{
+	padding: 5px;
+	width: 300px; 
+	height: 200px;
+	
+}
+#thickboxImg{
+	text-align: center;
+}
+
 /*navigation bar*/
 nav ul {
 	list-style: none;
