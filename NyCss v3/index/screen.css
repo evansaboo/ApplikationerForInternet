@@ -212,6 +212,7 @@ margin: 0 auto;
 	height: 100px;
 }
 /*****/
+/*globalImg recipes pages*/
 	#globalImg{
 	margin-top: 40px;
 	width: 980px;
@@ -225,7 +226,6 @@ margin: 0 auto;
 	#right{
 		width: 450px;
 		float: right;
-
 	}
 	#globalImg h2{
 	text-decoration: underline;
