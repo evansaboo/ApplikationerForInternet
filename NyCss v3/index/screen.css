@@ -156,21 +156,16 @@ margin: 0 auto;
  	border-bottom-color: #333;
 }
 #wrapper #content {
- 	padding-left: 10px;
- 	padding-right: 10px;
  	padding-top: 20px;
  	padding-bottom:40px;
- 	width: 940px;
+ 	width: 750px;
 }
 #wrapper #content h2 {
  	font-size: 24px;
  	color: #000;
  	display: block;
- 	border-bottom-width: 1px;
- 	border-bottom-style: solid;
- 	border-bottom-color: #333;
 	padding-bottom:20px;
-	margin-bottom:-30px;
+	margin-bottom:-40px;
 }
 
  #center{

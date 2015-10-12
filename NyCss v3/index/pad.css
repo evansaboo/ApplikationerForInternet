@@ -1,137 +1,281 @@
 @charset "utf-8";
 /* Screen CSS Document */
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	line-height: 18px;
-	color: #333;
-	background:-moz-linear-gradient(50% 10% -90deg, 
-	rgba(207, 189, 165, 1) 0%, 
-	rgba(207, 189, 165, 1) 100%);
-	background:-webkit-gradient(linear, 50% 10%,50% 100%, 
-	color-stop(0, rgba(207, 189, 165, 1)),
-	color-stop(1, rgba(207, 189, 165, 1)));
-	margin 0px;
-}
 
-#wrapper {
-	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
+/*body*/
+body{
+	margin: 0 auto;
+	font-family:verdana,helvetica,arial,sans-serif;
+	background-color: #fff;
 }
-nav {
-	font-size: 1.8em;
-	height: 70px;
-	line-height: 30px;
-	width: 1000px;
-	margin-right:100px;
-	margin-top: 130px;
-	margin-bottom: 12px;
-	margin-left: 30px;
+/*****/
+/*index page*/
+#overalImg{
+	margin-top: 50px;
 }
-nav a {
-	color:#FFF;
-}
-
-a {
-	color:#0000CC;
-}
-
-nav ul {list-style: none; margin: 0 auto; width: 1000px;}
-nav li {float: left; display: inline; margin: 0;}
-
-nav a:link, #banner nav a:visited {
- color: #99;
- display: inline-block;
- height: 30px;
- text-decoration: none;
- border-radius: 5px;
- -moz-border-radius: 5px;
- -webkit-border-radius: 5px;
- margin: 5px;
- padding-top: 5px;
- padding-right: 1.5em;
- padding-bottom: 5px;
- padding-left: 1.5em;
- background-color: #000;
-}
-nav a:hover, nav a:active,
-nav .active a:link, nav .active a:visited {
- background #fff;
- color #999;
- margin:5px;
- text-shadow:: none !important;
- border-radius::5px;
- -moz-border-radius: 5px;
- -webkit-border-radius: 5px;
-}
-#wrapper header {
-	background-image: url(../images/page-header1.jpg);
-	background-repeat: no-repeat;
-	display: block;
-	height: 183px;
-	width: 1000px;
-	margin-left:-40px;
-	margin-top:10px;
- 	border-radius: 20px;
- 	-moz-border-radius: 20px;
- 	-webkit-border-radius: 20px;
- 	clear: both;
-	padding-top: 50px;
+.thickboxImg img{
+	padding: 5px;
+	width: 300px; 
+	height: 200px;
 	
 }
-#wrapper #hero {
-	background-image: ;
-	background-repeat: no-repeat;
-	height: 450px;
-	width: 0px;
+.thickboxImg{
+	text-align: center;
+}
+/*****/
+/*navigation bar*/
+nav ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	}
+
+nav li{
+    display:inline;
+}
+nav a{
+	text-align: center;
+        display: inline-block;
+        padding:10px;
+	color: #000;
+	height: 30px;
+	width: 100px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 5px;
+	padding-right: 2.35em;
+	padding-bottom: 0px;
+	padding-left: 2.2em;
+	background-color: #f1b6b8;
+}
+
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -10px;
+		padding-top: 10px;
+		left: 0;
+		right: 0;
+	}
+
+
+nav ul li:hover a {
+	background-color:#000;
+	color: #fff;
+}
+		
+nav ul li ul li:hover a {
+		background-color:#f1b6b8;
+		color: #000;
+}
+/*****/
+
+/*Top bar*/
+#topbar{
+	background-color:#f1b6b8;
+	width:100%;
+	height:100px;
+	color:#000;
+	padding-top:1px;
+	padding-bottom:6px;
+}
+
+	
+#logodiv{
+       float: left;
+	padding-top:15px;
 	margin-left:10px;
-	margin-top:10px;
-	display: block;
- 	border-radius: 20px;
- 	-moz-border-radius: 20px;
- 	-webkit-border-radius: 20px;
- 	clear: both;
+        position: absolute;
+	padding-right:50px;
+
+	
+}
+#logodiv img{
+        height: 70px;
+	
+}	
+#homediv{
+	padding:6px 80px 0px 80px;	
+}
+
+#topmenu h1{
+    margin-top: 40px;
+        font-size: 25px;
+	text-align: center;
+
+}
+/*****/
+	
+/*Lunch, Breakfast, Dinner*/
+div.img {
+	display:inline-block;
+	width: 320px;
+	height: 284px;
+	margin-top: 60px;
+	padding: 4px;
+    border: 1px solid #000;
+}	
+
+div.img img {
+	width: 300px;
+	height: 200px;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+.img h3{
+	text-align: center;
+}
+
+div.img a:hover img {
+    border: 1px solid #000;
+}
+/*****/
+h1{
+color: #363636;
+text-align: center;
+margin: 0 auto;
+}
+
+/*contacts*/
+#wrapper {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
 }
 #wrapper hr {
 	border-bottom-style: solid;
  	border-bottom-color: #333;
 }
 #wrapper #content {
- 	padding-left: 10px;
- 	padding-right: 10px;
- 	padding-top: 20px;
+ 	padding-top: 30px;
  	padding-bottom:40px;
- 	width: 940px;
-}
-#columns {
- 	-moz-column-count: 0;
- 	-moz-column-gap: 2em;
- 	-moz-column-rule: 1px solid black;
- 	-webkit-column-count: 0;
- 	-webkit-column-count: 2em;
- 	-webkit-column-rule: 1px solid black;
- 	display: block;
+ 	width: 750px;
 }
 #wrapper #content h2 {
  	font-size: 24px;
  	color: #000;
  	display: block;
- 	border-bottom-width: 1px;
- 	border-bottom-style: solid;
- 	border-bottom-color: #333;
-	padding-bottom: 20px;
+	padding-bottom:20px;
+	margin-bottom:-40px;
 }
-footer{
-	background-color:#000;
-	color:#fff;
-	display:block;
-}
-#center{
+
+ #center{
 	width: 960px;
 	padding-top: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 100px;
 	margin-right:auto;
 	margin-left: auto;
 	
 }
+/*****/
+
+/*Calendar css*/
+#calendar table{
+	margin-top: 60px;
+        width: 700px;
+
+}
+#calendar th{
+	background-color: #f1b6b8;
+}
+#calendar table, #calendar td, #calendar th{
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#calendar td{
+	background-color: #f1b6b8;
+	width: 175px;
+	height: 70px;
+	vertical-align: top;
+	text-align: left;
+}
+#calendar td img{
+
+	margin-left: 10px;
+	width: 80px;
+	height: 60px;
+}
+/*****/
+/*globalImg recipe pages*/
+	#globalImg{
+	margin-top: 40px;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	#left{
+		width: 350px;
+		float: left;
+	}
+	#right{
+ 
+		width: 320px;
+		float: right;
+	}
+	#globalImg h2{
+        font-size: 20px;
+	text-decoration: underline;
+}
+#globalImg p{
+    font-size: 13px;
+}
+#globalImg h4{
+    font-size: 15px;
+}
+#globalImg li{
+    font-size: 14px;
+}
+#globalImg h3{
+	margin-left: 20px;
+	margin-top: 19px;
+	font-size: 20px;
+}
+
+
+#globalImg img{
+	border-radius: 3px;
+	border: 1px solid #000;
+	margin-left: 20px;
+	width: 300px;
+	height: 200px;
+}
+
+#undertext {
+	display: inline-block;
+        margin-left: 15px;
+
+}
+#comments {
+	margin-top: 30px;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#comments #box{
+	display: block;
+	border: 1px solid #000;
+	width: 700px;
+	height: 300px;
+	background-color: #f1b6b8;
+}
+#comments #box h5{
+	margin-left: 20px;
+}
+
+#box p{
+	margin-left: 20px;
+}
+
+
