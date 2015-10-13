@@ -175,6 +175,10 @@ margin: 0 auto;
 	margin-right:auto;
 	margin-left: auto;
 	
+ }
+ #wrapper textarea{
+    width: 500px;
+    height: 120px;   
 }
 /*****/
 
