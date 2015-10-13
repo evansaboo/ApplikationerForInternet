@@ -14,9 +14,8 @@
 
  // you can specify which email you want your contact form to be emailed to here
 
-  $toemail = "Evan_95@hotmail.com;
-  $subject = "From
-  ZpeedX";
+  $toemail = "evan_95@hotmail.com";
+  $subject = "From ZpeedX";
 
   $headers = "MIME-Version: 1.0\n"
             ."From: \"".$name."\" <".$email.">\n"

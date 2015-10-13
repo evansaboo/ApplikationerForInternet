@@ -196,39 +196,33 @@ margin: 0 auto;
 
 #calendar td{
 	background-color: #f1b6b8;
-	width: 175px;
-	height: 70px;
 	vertical-align: top;
 	text-align: left;
 }
 #calendar td img{
-	width: 80px;
+        float: right;
+	width: 72px;
 	height: 60px;
 }
 /*****/
 /*globalImg recipe pages*/
-	#globalImg{
-	margin-top: 40px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	}
-	#left{
-		max-width: 350px;
-		float: left;
-           
-	}
-	#right{
- 
-		width: 320px;
-		float: right;
-	}
-	#globalImg h2{
-        font-size: 20px;
-	text-decoration: underline;
+#globalImg{
+    margin-top: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
-#globalImg p{
-    font-size: 13px;
+#left{
+    max-width: 350px;
+    float: left;          
+}
+#right{
+    width: 320px;
+    float: right;
+}
+#globalImg h2{
+    font-size: 20px;
+    text-decoration: underline;
 }
 #globalImg h4{
     font-size: 15px;
@@ -238,18 +232,22 @@ margin: 0 auto;
     font-size: 14px;
     padding-bottom: 7px;
 }
+#globalImg p, #globalImg ul li{
+    font-size: 14px;
+    padding-bottom: 7px;
+}
 #globalImg h3{
-	margin-left: 20px;
-	margin-top: 19px;
-	font-size: 20px;
+    margin-left: 20px;
+    margin-top: 19px;
+    font-size: 20px;
 }
 
 #globalImg img{
-	border-radius: 3px;
-	border: 1px solid #000;
-	margin-left: 20px;
-	width: 300px;
-	height: 200px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    margin-left: 20px;
+    width: 300px;
+    height: 200px;
 }
 
 #undertext {

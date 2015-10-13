@@ -195,16 +195,13 @@ margin: 0 auto;
 
 #calendar td{
 	background-color: #f1b6b8;
-	width: 175px;
-	height: 125px;
 	vertical-align: top;
 	text-align: left;
 }
 #calendar td img{
-
-	margin-left: 10%;
+        float: right;
 	width: 150px;
-	height: 100px;
+	height: 130px;
 }
 /*****/
 /*globalImg recipe pages*/
@@ -245,8 +242,15 @@ margin: 0 auto;
 	display: inline-block;
 
 }
+#globalImg ol li{
+    margin-left: -10px; 
+    padding-bottom: 10px;
+}
+#globalImg ul li{
+    padding-bottom: 7px;
+}
 #comments {
-	margin-top: 100px;
+	margin-top: 50px;
 	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
