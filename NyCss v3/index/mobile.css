@@ -14,12 +14,11 @@ body{
 }
 .thickboxImg img{
 	padding: 5px;
-	width: 40%;
-        height: 140px;;
-	
+	width: 200px;
+        height: 150px;
 }
 .thickboxImg{
-	text-align: center;
+        text-align: center;
 }
 /*****/
 /*navigation bar*/
@@ -28,7 +27,7 @@ nav ul {
     margin:0;
     padding:0;
     text-align:center;
-	}
+}
 
 nav li{
     display:inline;
@@ -84,9 +83,7 @@ nav ul li ul li:hover a {
 	color:#000;
 	padding-top:1px;
 	padding-bottom:6px;
-}
-
-	
+}	
 #logodiv{
        text-align: center;
 
@@ -100,32 +97,31 @@ nav ul li ul li:hover a {
 }
 
 #topmenu h1{
-   
-        font-size: 15px;
-	text-align: center;
-
+    font-size: 15px;
+    text-align: center;
 }
 /*****/
 	
 /*Lunch, Breakfast, Dinner*/
 div.img {
-	display:inline-block;
-	width: auto;
-        width: auto;
-	margin-top: 60px;
-	padding: 4px;
+    width: 290px;
+    margin-top: 60px;
+    padding: 4px;
     border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    
 }	
 
 div.img img {
-	width: 250px;
-	height: 150px;
+    width: 260px;
+    height: 180px;
     margin: 5px;
     border: 1px solid #ffffff;
 }
 
 .img h3{
-	text-align: center;
+    text-align: center;
 }
 
 div.img a:hover img {
@@ -181,8 +177,7 @@ margin: 0 auto;
 /*Calendar css*/
 #calendar table{
 	margin-top: 60px;
-        width: 700px;
-
+        width: 97%;
 }
 #calendar th{
 	background-color: #f1b6b8;
@@ -193,7 +188,10 @@ margin: 0 auto;
 	margin-right: auto;
 	
 }
-
+/*TR.week th{
+    visibility: hidden;
+    position: fixed; 
+}*/
 #calendar td{
 	background-color: #f1b6b8;
 	vertical-align: top;
@@ -201,8 +199,8 @@ margin: 0 auto;
 }
 #calendar td img{
         float: right;
-	width: 72px;
-	height: 60px;
+	width: 50px;
+	height: 40px;
 }
 /*****/
 /*globalImg recipe pages*/
