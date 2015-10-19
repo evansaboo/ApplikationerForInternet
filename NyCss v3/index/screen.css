@@ -193,8 +193,7 @@ margin: 0 auto;
 #calendar table, #calendar td, #calendar th{
 	border: 1px solid black;
 	margin-left: auto;
-	margin-right: auto;
-	
+	margin-right: auto;	
 }
 
 #calendar td{
@@ -206,6 +205,19 @@ margin: 0 auto;
         float: right;
 	width: 150px;
 	height: 130px;
+}
+.pictext{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+.pictext h4:hover {
+    color: #fff;
+}
+.pictext h4{
+    text-align: center;
+
 }
 /*****/
 /*globalImg recipe pages*/
